@@ -38,5 +38,19 @@ string f="het",g="patel",h="het";
 cout<<f.compare(g)<<endl;          //used to compare two string
 cout<<f.compare(h)<<endl;
 
+//string operator part
+
+/*1*/string i="holiday";
+cout<<a.at(2)<<endl;
+cout<<a[2]<<endl;
+
+/*2*/
+string j=f+" "+g;       //f="het"+" "+"patel"=het patel
+cout<<j<<endl;
+
+/*3*/
+cout<<i.front()<<endl;      //first element type karse
+cout<<i.back()<<endl;           //last element type karse
+
     return 0;
 }
