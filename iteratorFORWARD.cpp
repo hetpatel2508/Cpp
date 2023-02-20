@@ -6,10 +6,10 @@ using namespace std;
 int main()
 {
 string a="welcome";
-string::reverse_iterator i;
+string::iterator i;
 
 /*for printing string*/
-for(i=a.rbegin()  ;i!=a.rend()   ;i++)        
+for(i=a.begin()  ;i!=a.end()   ;i++)        
 {
     cout<<*i;           
 }
@@ -17,7 +17,7 @@ for(i=a.rbegin()  ;i!=a.rend()   ;i++)
 cout<<endl;
 
 /*for printing string in upper case*/
-for(i=a.rbegin()  ;i!=a.rend()   ;i++)        
+for(i=a.begin()  ;i!=a.end()   ;i++)        
 {
     *i=*i-32;
     cout<<*i;           
