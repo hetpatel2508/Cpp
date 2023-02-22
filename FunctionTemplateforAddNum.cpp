@@ -9,7 +9,7 @@ return a+b;
 
 int main()
 {
-auto a,b;
+float a,b;
 cout<<"enter a:";
 cin>>a;
 cout<<"enter b:";
