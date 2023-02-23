@@ -3,7 +3,7 @@ using namespace std;
 int *fix(int a)
 {
 int *ptr=&a;
-cout<<ptr<<endl;
+cout<<ptr<<endl; 
 return ptr;
 }
 int main()
