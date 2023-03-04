@@ -7,10 +7,20 @@ int length;
 int breath;
 
 public:
-ractangle(int l=0,int b=0)
+ractangle()         //default constructor
+{
+    length=0;
+    breath=0;
+}
+ractangle(int l,int b)   //perametarise constructor
 {
     length=l;
     breath=b;
+}
+ractangle(ractangle &r)     //copy constructor
+{
+    length=r.length;
+    breath=r.breath;
 }
 int area()
 {
