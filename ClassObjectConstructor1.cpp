@@ -22,7 +22,7 @@ ractangle(ractangle &r)     //copy constructor
     length=r.length;
     breath=r.breath;
 }
-int area()
+int area()          //faciletator
 {
     return length*breath;
 }
