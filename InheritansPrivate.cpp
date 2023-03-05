@@ -25,9 +25,13 @@ int getbreath()
 {
     return breath;
 }
+int area()
+{
+    return length*breath;
+}
 };
 
-class cube:ractangle
+class cube:public ractangle
 {
 private:
 int hight;
@@ -50,5 +54,6 @@ int volume()
 int main()
 {
     cube c1(5,4,3);
+    cout<<"Area="<<c1.area()<<endl;
     cout<<c1.volume();
 }
