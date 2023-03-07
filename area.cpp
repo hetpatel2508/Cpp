@@ -10,6 +10,7 @@ int main()
     cout<<"\nenter b: ";
     cin>>b;
     cout<<"area of circle: "<<(3.14*r*r);
+
     cout<<"\narea of ractangle: "<<(l*b);
     return 0;
 }
