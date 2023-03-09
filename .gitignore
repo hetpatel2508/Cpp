@@ -1,4 +1,6 @@
 *.exe
+*.json
+
 
 test2.cpp
 tempCodeRunnerFile.cpp
