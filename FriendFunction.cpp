@@ -1,55 +1,28 @@
+/*normal situation ma jo class ne bahar private&proteced variable use karva hoy to getlen&setlen function 
+bnava pade but friend use karva thi je te friend function ma dairect private&proteced variable access
+kari sakay*/
+
+
 #include<iostream>
 using namespace std;
 
 class ract
 {
-    private:
-    int bre;
-    protected:
-    int hig;
-    public:
-    int len;
+    private:  int bre;
+    protected:  int hig;
+    public:  int len;
 
-    friend int area();
+    friend int area(int l,int b,int h);
 
-    void getbre(int b)
-    {
-        bre=b;
-    }
-    void gethig(int h)
-    {
-        hig=h;
-    }
-
-
-    int brre()
-    {
-        return bre;
-    }
-    int leen()
-    {
-        return len;
-    }
-    int hiig()
-    {
-        return hig;
-    }
-
-    ract(int l=0,int b=0,int h=0)
-    {
-        len=l;
-        getbre(b);
-        gethig(h);
-    }
 };
 
 int area(int l,int b,int h)
 {
     ract t;
     t.len=l;
-    t.getbre(b);
-    t.gethig(h);
-    return (t.leen())*(t.brre())*(t.hiig());
+    t.bre=b;
+    t.hig=h;
+    return (t.len)*(t.bre)*(t.hig);
 }
 
 int main()
