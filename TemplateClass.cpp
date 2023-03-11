@@ -16,14 +16,17 @@ ract(t l,t b)
     bre=b;
 }
 
-t area();
-};
-
-template<class t>
-t ract<t>::area()
+t area()
 {
     return len*bre;
 }
+};
+
+// template<class t>
+// t ract<t>::area()
+// {
+//     return len*bre;
+// }
 
 int main()
 {
