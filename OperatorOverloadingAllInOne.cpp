@@ -65,6 +65,7 @@ ract  operator +(ract r1,ract r2)
 ostream & operator <<(ostream &out,ract r33)
 {
     out<<"Length: "<<r33.len<<"  "<<"Breadth: "<<r33.bre<<endl;
+    return out;
 }
 
 istream & operator >>  (istream &ins,ract &r)
