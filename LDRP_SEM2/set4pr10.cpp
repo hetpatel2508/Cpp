@@ -33,8 +33,8 @@ public:
 int main()
 {
     book b1,b2;
-    b1.setdetails("Patel Ne Karamato",1000,"Het Patel");
-    b2.setdetails("Devla Ne Lavario",500,"Dev Patel");
+    b1.setdetails("The Glympse Of Heaven",1000,"Het Patel");
+    b2.setdetails("Lord Of The Rings",500,"Dev Patel");
 
     b1.getdetails();
     b2.getdetails();
