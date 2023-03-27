@@ -9,7 +9,6 @@ using namespace std;
     #define pi 3
     #endif
 
-
 int main()
 {
     int n;
