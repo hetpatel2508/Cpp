@@ -6,7 +6,8 @@ class parent
     public:
    virtual void display()
     {
-        cout<<"output of parent";
+        cout<<"output of parent";  //ahi virtual void display(); allowed nathi 
+                                    //kai na kai virtual function ma hovu joia
     }
 };
 
