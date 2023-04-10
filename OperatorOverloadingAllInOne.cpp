@@ -17,7 +17,7 @@ int getbre()
 }
 
 friend istream & operator >>(istream &i,ract &r); 
-friend ostream & operator <<(ostream &out,ract r33);
+friend ostream & operator <<(ostream &out,ract &r33);
 
 friend ract  operator +(ract r1,ract r2);
 
@@ -62,7 +62,7 @@ ract  operator +(ract r1,ract r2)
     return t;
 }
 
-ostream & operator <<(ostream &out,ract r33)
+ostream & operator <<(ostream &out,ract &r33)
 {
     out<<"Length: "<<r33.len<<"  "<<"Breadth: "<<r33.bre<<endl;
     return out;
