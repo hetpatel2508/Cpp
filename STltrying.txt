@@ -1,0 +1,4 @@
+apple 150 3
+orange 100 3
+mango 500 4
+watermallon 233 2
