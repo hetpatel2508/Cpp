@@ -27,6 +27,17 @@ friend ract operator /(ract r1,ract r2);
 
 friend ract operator %(ract r1,ract r2);
 
+friend bool operator==(ract r1,ract r2);
+
+
+ract operator = (const ract x) // ahi a compilsary friend vagar lakvu pade
+{
+
+len=x.len;
+bre=x.bre;
+return *this;
+}
+
 };
 
 ract operator %(ract r1,ract r2)
@@ -78,10 +89,17 @@ cout<<"Enter length:";
 return ins;
 }
 
+bool operator==(ract r1,ract r2)
+{
+    if(r1.len==r2.len && r1.bre==r2.bre)
+    {return true;}
+    else
+    {return false;}
+}
 
 int main()
 {
-    ract r1,r2,r3,r4,r5,r6;
+    ract r1,r2,r3,r4,r5,r6,r7;
     cin>>r1;
     cin>>r2;
     cout<<r1;
@@ -94,5 +112,15 @@ int main()
     cout<<r5;
     r6=r1%r2;
     cout<<r6;
-    
+    cout<<r1;
+    r7=r1;
+    cout<<r7;
+    if(r1==r7)
+    {
+        cout<<"Both have same perameters "<<endl;
+    }
+    else
+    {
+        cout<<"Both are different "<<endl;
+    }
 }
