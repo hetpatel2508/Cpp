@@ -45,8 +45,6 @@ int main()
     c1.set();
     c2.set(2);
     c3.set(3,4);
-    cout<<"For 1st object: "<<endl;
-    cout<<c1.getr()<<" +"<<"i"<<c1.geti()<<endl;
 
     cout<<"For 2st object: "<<endl;
     cout<<c2.getr()<<" +"<<"i"<<c2.geti()<<endl;
