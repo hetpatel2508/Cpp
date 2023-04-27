@@ -29,14 +29,8 @@ string getname()
 {
     return item_name;
 }
-virtual void store(int j,string n)
-{
-    cout<<":)";
-}
-virtual void retrieve()
-{
-    cout<<":((";
-}
+virtual void store(int j,string n)=0;
+virtual void retrieve()=0;
 };
 
 class STACK: public LIST
