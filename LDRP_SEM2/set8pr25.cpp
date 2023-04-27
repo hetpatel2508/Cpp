@@ -81,7 +81,7 @@ int main()
     cout<<"Enter total queue items: ";
     cin>>n2;
     QUEUE q[n2];
-    for(int i=0;i<n1;i++)
+    for(int i=0;i<n2;i++)
     {
         cout<<"item no.=";
         cin>>item;
